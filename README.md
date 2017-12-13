@@ -1,4 +1,4 @@
-# HousePricePredict
+# NYC House Sale Price Prediction
 
 ## Contributors and contact
 Biqi Lin, bl2379@nyu.edu;
