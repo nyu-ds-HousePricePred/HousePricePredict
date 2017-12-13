@@ -11,6 +11,47 @@ The goal of the study is to compare the performance of three machine learning al
 
 Data were online-archived real-estate sales data of New York City within the 2016-2017 time period, retrieved from the Department of Finance of the City of New York. There are originally 20 explanatory features, with 84,548 rows of observations.
 
+## Files in the repository
+### Figures.zip:
+A zip file storing all the figures created in this study.
+### HousePricePrediction_Code_Final.ipynb:
+A Jupyter Notebook file with the codes of the study in Python 3 environment.
+### README.md:
+A Github markdown file with the introduction of the study and the instructions of executing the code.
+### nyc-rolling-sales.csv:
+A comma-separated-values file with the entire original dataset used in the study.
+### report_final.pdf:
+A pdf file with the final report of the study.
+
+## Running the Jupyter Notebook
+(for details, see https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
+
+### 1. Launching the Jupyter Notebook App:
+The Jupyter Notebook App can be launched by clicking on the Jupyter Notebook icon installed by Anaconda in the start menu (Windows) or by typing "jupyter notebook" in a terminal (cmd on Windows).
+
+This will launch a new browser window (or a new tab) showing the Notebook Dashboard, a sort of control panel that allows (among other things) to select which notebook to open.
+
+When started, the Jupyter Notebook App can access only files within its start-up folder (including any sub-folder). If you store the notebook documents in a subfolder of your user folder no configuration is necessary. Otherwise, you need to choose a folder which will contain all the notebooks and set this as the Jupyter Notebook App start-up folder.
+
+### 2. Change Jupyter Notebook startup folder:
+
+#### For Windows users, follow the steps below:
+1) Copy the Jupyter Notebook launcher from the menu to the desktop.
+
+2) Right click on the new launcher and change the Target field, change %USERPROFILE% to the full path of the folder which will contain all the notebooks.
+
+3) Double-click on the Jupyter Notebook desktop launcher (icon shows [IPy]) to start the Jupyter Notebook App, which will open in a new browser window (or tab). Note also that a secondary terminal window (used only for error logging and for shut down) will be also opened. If only the terminal starts, try opening this address with your browser: http://localhost:8888/.
+
+#### For MacOS users, follow the steps below:
+1) Click on spotlight, type terminal to open a terminal window.
+
+2) Enter the startup folder by typing cd /some_folder_name.
+
+3) Type jupyter notebook to launch the Jupyter Notebook App (it will appear in a new browser window or tab).
+
+### 3. Execute a notebook:
+Download the "HousePricePrediction_Code_Final.ipynb" file to the notebook folder or a sub-folder of it. Launch the Jupyter Notebook App (see previous section). In the Notebook Dashboard navigate to find the notebook: clicking on its name will open it in a new browser tab. Click on the menu Help -> User Interface Tour for an overview of the Jupyter Notebook App user interface. You can run the notebook document step-by-step (one cell a time) by pressing shift + enter. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All. To restart the kernel (i.e. the computational engine), click on the menu Kernel -> Restart. This can be useful to start over a computation from scratch (e.g. variables are deleted, open files are closed, etc...).
+
 ## Feature list
 ### Borough:
 The name of the borough in which the property is located.
